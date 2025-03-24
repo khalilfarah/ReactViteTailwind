@@ -1,0 +1,22 @@
+@import "tailwindcss";
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+  // color-scheme: light dark;
+}
+
+@theme {
+  --color-Navbarcolor: #0c8195;
+  --color-ButtonColor: #f1c111;
+  --color-ButtonHeaderHover: #171819;
+}
+
+.slick-slide {
+  margin: 3 2px;
+  padding: 40px;
+  align-items: center;
+}
+.slick-arrow:before {
+  display: none;
+}
